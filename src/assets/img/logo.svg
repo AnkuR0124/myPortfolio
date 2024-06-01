@@ -1,0 +1,11 @@
+<svg width="90" height="70" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="watercolor">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" result="noise" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2" />
+    </filter>
+  </defs>
+
+  <path d="M6 24 L15 6 L24 24 L15 15 Z" fill="#F25CA2" filter="url(#watercolor)" />
+  <path d="M6 24 L15 6 L24 24 L15 15 Z" stroke="#D81B60" stroke-width="0.5" fill="none" />
+</svg>
