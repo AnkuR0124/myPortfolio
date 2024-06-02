@@ -27,7 +27,7 @@ export const Projects = () => {
     },
     {
       title: "School Timetable Management System",
-      description: "Made by using Spring Boot",
+      description: "Made by using Spring Boot and MySQL Database",
       imgUrl: projImg3,
       link: "https://github.com/UditNayak/School-TimeTable-Management-System",
     },
