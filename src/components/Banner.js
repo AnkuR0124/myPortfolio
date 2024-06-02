@@ -12,7 +12,7 @@ export const Banner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
   const toRotate = ["CS Enthusiast", "Gamer", "Rider"];
-  const period = 2000;
+  const period = 1500;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -45,7 +45,7 @@ export const Banner = () => {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
       setIndex(1);
-      setDelta(500);
+      setDelta(100);
     } else {
       setIndex((prevIndex) => prevIndex + 1);
     }
@@ -75,10 +75,15 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                  Aspiring student dedicated to making a positive impact. Eager to channel passion into meaningful contributions. Seeking opportunities to learn, collaborate, and create a better world. Let's connect and make a difference together! 
+                    Aspiring student dedicated to making a positive impact.
+                    Eager to channel passion into meaningful contributions.
+                    Seeking opportunities to learn, collaborate, and create a
+                    better world. Let's connect and make a difference together!
                   </p>
                   <button>
-                    <a href="https://github.com/AnkuR0124" className="connect">Let's Connect <ArrowRightCircle size={25} /></a> 
+                    <a href="https://github.com/AnkuR0124" className="connect">
+                      Let's Connect <ArrowRightCircle size={25} />
+                    </a>
                   </button>
                 </div>
               )}
