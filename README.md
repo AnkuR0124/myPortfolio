@@ -6,7 +6,8 @@ Built using:
 - CSS framework: React-bootstrap
 - CSS animations library: Animate.css
 
-In the /personal-portfolio, you can run:
+To see the portfolio, you can click this [link](https://my-portfolio-bay-chi-62.vercel.app/)
+or you can follow:
 
 ### `npm start`
 
